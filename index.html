@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Erlang 3: Rise of the Machines</title>
+    <meta name="author" content="your name here">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css">
+body { visibility: hidden; background: black; }
+    </style>
+  </head>
+  <body>
+
+    <div id="slides" data-background="m/stable-tec.png">
+
+      <section class="title photobg" data-image="m/mad-science.png">
+        <h1 style="margin-bottom: 0">ERLANG</h1>
+        <h2 style="color: white">from the outside</h2>
+        <p>@bodil</p>
+      </section>
+
+      <section class="photo meme" data-image="m/weightless.gif">
+        <p class="bottom">I have no idea what I'm doing</p>
+      </section>
+
+      <section class="photo" data-image="m/hello-goat.png">
+        <h3 style="margin: 4em 50% 0 0">Hello Joe?</h3>
+        <h3 style="margin: 0 0 0 50%">Hello Goat</h3>
+      </section>
+
+      <section class="photo meme" data-image="m/gordon.jpg">
+        <p class="bottom small">Gordon Guthrie (2002)</p>
+      </section>
+
+      <section class="photobg meme" data-image="m/magnets.gif">
+        <p>Why isn't Erlang more popular?</p>
+      </section>
+
+      <section>
+        <p>Kids today prefer Ruby and Node.js</p>
+      </section>
+
+      <section class="photo white" data-image="m/rails-dying.png"></section>
+
+      <section class="photo dhh" data-image="m/dhh.jpg">
+        <p>Rails</p>
+        <p>No</p>
+        <p>More</p>
+      </section>
+
+      <section class="photo meme" data-image="m/ryan.jpg">
+        <p class="top">Hey girl,</p>
+        <p class="bottom">I wish you were asynchronous<br>so you'd give me a callback</p>
+      </section>
+
+      <section class="photo white" data-image="m/npm.png"></section>
+
+      <section>
+        <p>The core tooling is simple yet sensational.</p>
+        <p class="fragment">The community has enormous momentum.</p>
+        <p class="fragment">A natural choice for web apps.</p>
+      </section>
+
+      <section class="photobg" data-image="m/evil-pinkie.jpg">
+        <h1 style="padding-top: 2.5em">ISOMORPHIC JAVASCRIPT</h1>
+      </section>
+
+      <section>
+        <p>It doesn't do concurrency<br>nearly as well as Erlang.</p>
+        <p class="fragment">Nobody cares.</p>
+        <p class="fragment">It works well enough.</p>
+      </section>
+
+      <section>
+        <p>Which languages are the most popular?</p>
+        <p>(on GitHub)</p>
+        <ul>
+          <li>JavaScript</li>
+          <li>Java</li>
+          <li>Ruby</li>
+        </ul>
+      </section>
+
+      <section>
+        <p>Which languages are the most popular?</p>
+        <p>(according to TIOBE)</p>
+        <ul>
+          <li class="fragment">Java</li>
+          <li class="fragment">C</li>
+          <li class="fragment">C++</li>
+          <li class="fragment">C#</li>
+          <li class="fragment">Objective-C</li>
+        </ul>
+      </section>
+
+      <section class="photo meme" data-image="m/suits.gif">
+        <p class="bottom">BIG ENTERPRISE</p>
+      </section>
+
+      <section>
+        <ul>
+          <li class="fragment">Oracle</li>
+          <li class="fragment">AT&T</li>
+          <li class="fragment">Microsoft</li>
+          <li class="fragment">Apple</li>
+        </ul>
+      </section>
+
+      <section class="photo meme" data-image="m/dijkstra.jpg">
+        <p class="bottom small">"The only reason Java has been accepted is because it is a product of a company that has made enormous advertisement for it." — Edsger W. Dijkstra</p>
+      </section>
+
+      <section style="background-color: white" class="photo" data-image="m/sad-pinkie.gif">
+        <h2>But Ericsson?</h2>
+      </section>
+
+      <section>
+        <p>Java was launched by Sun as a flagship product.</p>
+        <p class="fragment">Ericsson never really wanted Erlang.</p>
+      </section>
+
+      <section class="photobg" data-image="m/pinkamena.png"></section>
+      <section class="photobg" data-image="m/pinkaglass.jpg"></section>
+      <section class="photo" data-image="m/braveheart.png"></section>
+
+      <section class="photo meme" data-image="m/yellow-brick-road.jpg">
+        <p class="top">MY JOURNEY</p>
+      </section>
+
+      <section>
+        <p>JavaScript is my professional career.</p>
+        <p class="fragment">I know the JS ecosystem like no other.</p>
+        <p class="fragment">I know where all the skeletons are buried.</p>
+        <p class="fragment">I maintain a growing Node codebase.</p>
+      </section>
+
+      <section class="photobg meme" data-image="m/halp.png">
+        <p class="bottom">This does not end well.</p>
+      </section>
+
+
+      <section class="photo meme" data-image="m/joe-well-actually.jpg">
+        <p class="bottom">We had that in Erlang 25 years ago.</p>
+      </section>
+
+      <section>
+        <h2>Learning Erlang</h2>
+      </section>
+
+      <section>
+        <p>Read a book!</p>
+        <p class="fragment">Some books are online but still books.</p>
+        <p class="fragment">Advanced topics? Good luck!</p>
+      </section>
+
+      <section class="photo" data-image="m/learn-you.jpg"></section>
+
+      <section>
+        <p>Those books are long!</p>
+        <p>Erlang is not a complicated language!</p>
+        <p class="fragment">(at least that's what Robert claims)</p>
+      </section>
+
+      <section>
+        <p>Elixir has a very decent tutorial.</p>
+      </section>
+
+      <section class="photobg" data-image="m/storycat.jpg">
+        <h1 style="margin-bottom: 2.5em">Syntax</h1>
+      </section>
+
+      <section class="photo meme" data-image="m/jmc.png">
+        <p class="bottom">These are your father's parentheses.</p>
+      </section>
+
+      <section class="photo" data-image="m/hobbit.gif"></section>
+
+      <section class="photobg" data-image="m/mad-science.jpg">
+        <h1>Tooling</h1>
+      </section>
+
+      <section class="photobg" data-image="m/trip.gif"></section>
+
+      <section>
+        <h3>Tooling UX matters!</h3>
+        <p class="fragment">Where's the standard build tool?</p>
+        <p class="fragment">Where's the standard package manager?</p>
+        <p class="fragment">NO, MAKEFILES AREN'T OK</p>
+      </section>
+
+      <section class="photo" data-image="m/die-gnu-autotools.jpg"></section>
+
+      <section>
+        <p>By the way, Elixir's tooling is rather neat.</p>
+      </section>
+
+      <section style="background: #fff; color: black; text-shadow: 0 1px 1px black">
+        <img src="m/rebar3.png">
+        <p>rebar3</p>
+        <p>+ Hex</p>
+      </section>
+
+      <section class="photobg" data-image="m/pinkie-horde.png">
+        <h1 style="margin-bottom: 2em">Community</h1>
+      </section>
+
+      <section class="photo meme" data-image="m/facepalm.jpg">
+        <p class="top small">SAID EASY</p>
+        <p class="bottom">MEANT SIMPLE</p>
+      </section>
+
+      <section class="photo meme" data-image="m/kmett.jpg">
+        <p class="bottom">A monad is just the dual of a comonad,<br>what's the problem?</p>
+      </section>
+
+      <section class="photo meme" data-image="m/joe-reclined.jpg">
+        <p class="bottom">We were smug about Erlang 25 years ago.</p>
+      </section>
+
+      <section class="photo" data-image="m/to-the-moon.png"></section>
+
+      <section>
+        <p>Everything useful was invented here.</p>
+        <p class="fragment">Everything invented here is exactly right.</p>
+        <p class="fragment">(Joe has assured me he's never wrong)</p>
+      </section>
+
+      <section class="photo" data-image="m/scary-bird.gif"></section>
+
+      <section class="photo" data-image="m/fred.jpg"></section>
+
+      <section class="photobg meme" data-image="m/crybaby.jpg">
+        <p class="bottom">Why isn't Erlang more popular?</p>
+      </section>
+
+      <section class="photo meme" data-image="m/matthias.jpg">
+        <p class="bottom">The Lisp weenie's perspective</p>
+      </section>
+
+      <section>
+        <p>Erlang gives you an edge. Why share?</p>
+        <p class="fragment">Erlang is your secret weapon!</p>
+      </section>
+
+      <section class="photo meme" data-image="m/moby-dick.jpg">
+        <p class="bottom">The Haskell weenie's perspective</p>
+      </section>
+
+      <section>
+        <p>Avoid success at all costs!</p>
+        <p class="fragment">If everyone uses it,<br>you can't change anything.</p>
+        <p class="fragment">If everyone uses it,<br>everyone looks as smart as you.</p>
+      </section>
+
+      <section class="photobg meme" data-image="m/substack.jpg">
+        <p class="bottom">The Node weenie's perspective</p>
+      </section>
+
+      <section>
+        <p>The more people use it, the better it gets.</p>
+        <p class="fragment">There's literally an NPM package for <i>everything.</i></p>
+        <p class="fragment">Including Erlang.</p>
+      </section>
+
+      <section class="photobg white" data-image="m/shot-web.png">
+        <h2>What can be done?</h2>
+      </section>
+
+      <section>
+        <p>Stop resting on your laurels, because they won't support the weight.</p>
+      </section>
+
+      <section>
+        <p>There's a future for Erlang.
+      </section>
+
+      <section>
+        <h3>It's called Elixir.</h3>
+      </section>
+
+      <section>
+        <p>Elixir does everything right.</p>
+        <p class="fragment">Onboarding is smooth as kittens.</p>
+        <p class="fragment">Tooling is modern and effective.</p>
+        <p class="fragment">All the power of OTP and<br>none of the headache.</p>
+        <p class="fragment">A modern language with a modern workflow.</p>
+      </section>
+
+      <section>
+        <p>But I think there's a future<br>for Erlang itself too.</p>
+        <p class="fragment">Erlang remains the core which<br>makes everything else possible.</p>
+      </section>
+
+      <section>
+        <h3>IF YOU STEP UP<br>YOUR GAME.</h3>
+        <p class="fragment">If not, you'll be BCPL to Elixir's C.</p>
+        <p class="fragment">But I think this is already happening.</p>
+      </section>
+
+      <section>
+        <p>Embrace rebar3. It's your last, best hope.</p>
+        <p class="fragment">Put everything in Hex.</p>
+      </section>
+
+      <section>
+        <p>The future is going to look a lot different from the Erlang of 25 years ago.</p>
+      </section>
+
+      <section>
+        <p>Whether it's Elixir or a modern Erlang,</p>
+        <p class="fragment">it's going to be amazing.</p>
+      </section>
+
+      <section class="photo meme" data-image="m/film-reel.jpg">
+        <p class="top small">Because we really did solve these problems 25 years ago,</p>
+        <p class="bottom">now let's take over the world!</p>
+      </section>
+
+      <section data-video="m/the-movie.mp4" class="white final" style="">
+        <h3 style="margin: 0">谢谢!</h3>
+        <h3 style="margin-top: 0">Thank you!</h3>
+        <h3 style="margin-top: 0; margin-bottom: 1em">qatlho'!</h3>
+        <p>@bodil</p>
+        <p style="font-size: 0.8em">
+          <a style="text-decoration: none" href="http://bodil.org/boogaloo/">bodil.org/erlang-the-reckoning/</a>
+        </p>
+      </section>
+
+    <script type="text/javascript" src="dist/pink/pink.js"></script>
+  </body>
+</html>

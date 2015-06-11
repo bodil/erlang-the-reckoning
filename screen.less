@@ -1,0 +1,49 @@
+#slides section.title h2 {
+    color: white;
+    text-shadow:
+    0 1pt 0 darken(white, 20%),
+    0 2pt 0 darken(white, 23%),
+    0 3pt 4pt black;
+}
+
+section.dhh {
+    p {
+        font-family: "League Gothic";
+        font-weight: 400;
+        font-size: 1.7em;
+        line-height: 1.2em;
+        color: white;
+        text-align: left;
+        margin-left: 62%;
+    }
+}
+
+#slides section.final {
+    background: rgba(0,0,0,0);
+    h3, p {
+        font-family: "Helvetica Neue LT Std", Helvetica, sans-serif;
+    }
+}
+
+.slides .video {
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.slides .video {
+    z-index: 2;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+
+    &.active {
+        opacity: 1;
+    }
+}
